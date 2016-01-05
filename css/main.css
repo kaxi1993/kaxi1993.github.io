@@ -1,0 +1,76 @@
+.blue {
+	color: #337AB7;
+}
+
+.red {
+	color: rgb(199, 60, 50);
+}
+
+.section {
+	margin-bottom: 20px;
+	font-family: helvetica;
+}
+
+.section-title {
+	color: #337AB7;
+	text-transform: uppercase;
+	border-bottom: 3px solid #DDD;
+	padding-bottom: 10px;
+}
+
+.section-text {
+	line-height: 1.5em;
+    font-weight: 500;
+}
+
+.list-item {
+	padding-left: 10px;
+	border-left: 3px solid #337AB7;
+}
+
+body {
+	background-color: #F5F5F5;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.board {
+	background-color: #FFFFFF;
+	padding: 50px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 1px 8px 0px rgba(92,92,92,0.59);
+	-moz-box-shadow: 0px 1px 8px 0px rgba(92,92,92,0.59);
+	box-shadow: 0px 1px 8px 0px rgba(92,92,92,0.59);
+}
+
+.title {
+	text-align: center;
+}
+
+img.me {
+	width: 200px;
+	height: auto;
+}
+
+.position {
+	margin-top: 10px;
+}
+
+.contact a {
+	border-radius: 50%;
+	padding: 10px;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.used-tech {
+	margin-left: 0px;
+}
+
+.used-tech li {
+	margin-top: 10px;
+	border-radius: 3px;
+	border: 1px solid #337AB7;
+	padding: 7px;
+	color: #337AB7;
+}
