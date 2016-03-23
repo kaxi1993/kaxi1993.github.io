@@ -13,241 +13,272 @@
 	<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3 board">
-				<div class="row main-info section">
-					<div class="col-md-3">
-						<img src="img/me.jpg" class="img img-thumbnail me">
+	<header>
+		<div class="loader">
+			
+		</div>
+
+		<div class="background-image">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-colapse" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
 					</div>
-					<div class="col-md-8 title">
-						<h1>Lasha Kakhidze</h1>
-						<h3 class="blue position">Web Developer</h3>
-						<h5><i class="fa fa-map-marker"></i> Tbilisi, Georgia</h5>
-					</div>
-				</div>
 
-				<div class="row about section">
-					<div class="col-md-12">
-						<h4 class="section-title">About</h4>
-						<div class="section-text">
-							Hi, I am Fullstack / MEAN stack developer from Georgia. 
-							I have more than 3 years of experience in web development.
-							Love coding, learning new things, playing football and watching MMA fights.
-						</div>
-					</div>
-				</div>
-
-				<div class="row education section">
-					<div class="col-md-12">
-						<h4 class="section-title">Education</h4>
-						<div class="section-text">
-							<div class="row">
-								<div class="col-md-12">
-									<span class="pull-left list-item">
-										Master Degree  of Information Technologies: <br/>
-										Georgian Technical University – Tbilisi
-									</span>
-									<span class="pull-right">
-										Sep 2015 – present
-									</span>
-								</div>
-							</div><br/>
-
-							<div class="row">
-								<div class="col-md-12">	
-									<span class="pull-left list-item">
-										Bachelor of Information Technologies: <br/>
-										Tbilisi State University – Tbilisi
-									</span>
-									<span class="pull-right">
-										Sep 2011 – Jun 2015
-									</span>
-								</div>
-							</div><br/>
-
-							<div class="row">
-								<div class="col-md-12">
-									<span class="pull-left list-item">
-										Hight School : Mathematics and Physics: <br/>
-										Komarovi-Tbilisi
-									</span>
-									<span class="pull-right">
-										Sep 2007 – Jun 2011
-									</span>
-								</div>
-							</div>
-						</div>
+					<div class="collapse navbar-collapse" id="navbar-colapse">
+						<ul class="nav navbar-nav navbar-right" align="center">
+							<li>
+								<a href="#about-me">About Me</a>
+							</li>
+							<li>
+								<a href="#my-work">My Work</a>
+							</li>
+							<li>
+								<a href="#experience">Experience</a>
+							</li>
+							<li>
+								<a href="#skills">Skills</a>
+							</li>
+							<li>
+								<a href="#contact" class="contact-nav">Contact</a>
+							</li>
+						</ul>
 					</div>
 				</div>
+			</nav>
+		</div>
+	</header>
 
-				<div class="row skills section">
-					<div class="col-md-12">
-						<h4 class="section-title">Skills</h4>
-						<div class="section-text">
-							  Skills: <br>
-							  - Backend: Node.js, express.js <br>
-							  - Database: MongoDB, Redis, MySQL <br>
-							  - Frontend: Responsive design (twitter bootstrap, Zurb Foundation), html5(Jade), css3, LESS, SaSS, Stylus, Javascript, jQuery, Ajax, Canvas(create.js, fabric.js) <br>
-							  - SPA: Angular.js <br>
-							  -Javascript libraries: D3.js, socket.io, lodash, underscore, moment, bluebird, mongoose, passport, mocha, chai, sinon, supertest, jasmine <br>
-							  -Development Tools: Git / Github , Gulp, Bower, JSHint <br>
-							  -Operating system: Linux(Ubuntu), Windows(7, 8) <br>
-						</div>
-					</div>
-				</div>
-
-				<div class="row experience section">
-					<div class="col-md-12">
-						<h4 class="section-title">Experience</h4>
-						<div class="section-text">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="list-item">
-										<div class="row">
-											<div class="col-md-12">
-												<span class="pull-left">
-													Web Developer <br/>
-													Kvsocial-finland <br/>
-												</span>
-
-												<span class="pull-right">
-													Jan 2015 - present
-												</span>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-12">
-												<ul class="list-inline used-tech">
-													<li>html5</li>
-													<li>css3</li>
-													<li>bootstrap</li>
-													<li>jQuery</li>
-													<li>angular.js</li>
-													<li>canvas</li>
-													<li>fabric.js</li>
-													<li>create.js</li>
-													<li>D3.js</li>
-													<li>github</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div><br/>
-
-							<div class="row">
-								<div class="col-md-12">
-									<div class="list-item">
-										<div class="row">
-											<div class="col-md-12">
-												<span class="pull-left">
-													Web Developer <br/>
-													Richard Sawyer-Australia <br/>
-												</span>
-
-												<span class="pull-right">
-													Jun 2015 -Sep 2015
-												</span>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-12">
-												<ul class="list-inline used-tech">
-													<li>html5</li>
-													<li>css3(less)</li>
-													<li>bootstrap</li>
-													<li>jQuery</li>
-													<li>Angular.js</li>
-													<li>node.js</li>
-													<li>express.js</li>
-													<li>mongodb</li>
-													<li>bower</li>
-													<li>gulp</li>
-													<li>github</li>
-												</ul>
-											</div>
-										</div>
-									</div>									
-								</div>
-							</div><br/>
-
-							<div class="row">
-								<div class="col-md-12">
-									<div class="list-item">
-										<div class="row">
-											<div class="col-md-12">
-												<span class="pull-left">
-													Web Developer <br/>
-													Aurazenix-Sydney <br/>
-												</span>
-
-												<span class="pull-right">
-													Dec 2013  – Jan 2015
-												</span>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-12">
-												<ul class="list-inline used-tech">
-													<li>html</li>
-													<li>css</li>
-													<li>javascript</li>
-													<li>jQuery</li>
-													<li>jQuery-mobile</li>
-													<li>php</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row languages section">
-					<div class="col-md-12">
-						<h4 class="section-title">Speaking</h4>
-						<div class="section-text">
-							<p class="list-item">Georgian (Native),</p>
-							<p class="list-item">English(Fluent),</p>
-							<p class="list-item">Russian (Excellent)</p>
-						</div>
-					</div>
-				</div>
-				<div class="row contact section">
-					<div class="col-md-12">
-						<h4 class="section-title">Contact</h4>
-						<div class="section-text">
-							<a href="mailto:kakhidze2012@gmail.com" target="_blank">
-								<i class="fa fa-envelope-o"></i>
-							</a>
-
-							<a href="https://www.facebook.com/lasha.kakhidze" target="_blank">
-								<i class="fa fa-facebook"></i>
-							</a>
-
-							<a href="https://twitter.com/lasha_kakhidze" target="_blank">
-								<i class="fa fa-twitter"></i>
-							</a>
-
-							<a href="https://github.com/kaxi1993" target="_blank">
-								<i class="fa fa-github-alt"></i>
-							</a>
-
-							<a href="http://stackoverflow.com/users/3816072/kaxi1993" target="_blank">
-								<i class="fa fa-stack-overflow"></i>
-							</a>
-
-							<a href="https://www.linkedin.com/profile/view?id=AAMAABWEfp4BdgbSEhuWyx8exgqgMLO9Dg94YSQ&trk=hp-identity-photo" target="_blank">
-								<i class="fa fa-linkedin"></i>
-							</a>
-						</div>
-					</div>
+	<div class="content container-fluid">
+		<div class="row section" id="about-me">
+			<div class="col-md-6 col-md-offset-3">
+				<h1 class="section-title">About Me</h1>
+				<img src="images/me.jpg" alt="" class="img img-thumbnail me">
+				<div class="info">
+					Hi, I am Fullstack / MEAN stack developer from Georgia. 
+					I have more than 3 years of experience in web development.
+					I love coding, learning new things, playing football and watching MMA fights.
 				</div>
 			</div>
 		</div>
+
+		<div class="row my-work" id="my-work">
+			<h1 class="section-title">My Work</h1>
+			
+			<div class="project col-md-4 col-sm-6">
+				<img src="images/projects/members-adhero.png" alt="" class="img">
+				<a href="http://members.adhero.io/" target="_blank" class="hover-cover">
+					<h3>
+						<p> Project: Adhero </p>
+						<p> Position: Javascript Developer </p>
+					</h3>
+				</a>
+			</div>
+
+			<div class="project col-md-4 col-sm-6">
+				<img src="images/projects/prezhero.png" alt="" class="img">
+				<a href="http://app.prezhero.io/" target="_blank" class="hover-cover">
+					<h3>
+						<p> Project: PrezHero </p>
+						<p> Position: Javascript Developer </p>
+					</h3>
+				</a>
+			</div>
+
+			<div class="project col-md-4 col-sm-6">
+				<img src="images/projects/adhero.png" alt="" class="img">
+				<a href="http://www.adhero.io/" target="_blank" class="hover-cover">
+					<h3>
+						<p> Project: Adhero landing page </p>
+						<p> Position: Front-End Developer </p>
+					</h3>
+				</a>
+			</div>
+
+			<div class="project col-md-4 col-sm-6">
+				<img src="images/projects/bannermaker.png" alt="" class="img">
+				<a href="http://bannermaker.herokuapp.com/" target="_blank" class="hover-cover">
+					<h3>
+						<p> Project: Bannermaker </p>
+						<p> Position: Full-Stack Developer </p>
+					</h3>
+				</a>
+			</div>
+
+			<div class="project col-md-4 col-sm-6">
+				<img src="images/projects/beatbetball.png" alt="" class="img">
+				<a href="http://beatbetball.herokuapp.com/" target="_blank" class="hover-cover">
+					<h3>
+						<p> Project: Beatbetball </p>
+						<p> Position: Full-Stack Developer </p>
+					</h3>
+				</a>
+			</div>
+
+			<div class="project col-md-4 col-sm-6">
+				<img src="images/projects/tank.png" alt="" class="img">
+				<a href="#" target="_blank" class="hover-cover">
+					<h3>
+						<p> Project: Tank 1990 </p>
+						<p> Position: Java Developer </p>
+					</h3>
+				</a>
+			</div>
+
+			<div class="project col-md-4 col-sm-6">
+				<img src="images/projects/chess.png" alt="" class="img">
+				<a href="#" target="_blank" class="hover-cover">
+					<h3>
+						<p> Project: Chess </p>
+						<p> Position: Javascript Developer </p>
+					</h3>
+				</a>
+			</div>
+		</div>
+
+		<div class="row section" id="experience">
+			<div class="col-md-12">
+				<h1 class="section-title">Experience</h1>
+				<div class="work-card">
+					<ul class="list-unstyled">
+						<li>Company - KvSocial </li>
+						<li>Position - Web Developer</li>
+						<li>Jan 2015 - present</li>
+						<div class="row">
+							<ul class="list-inline used-tech">
+								<li>html5</li>
+								<li>css3</li>
+								<li>bootstrap</li>
+								<li>jQuery</li>
+								<li>angular.js</li>
+								<li>canvas</li>
+								<li>fabric.js</li>
+								<li>create.js</li>
+								<li>D3.js</li>
+								<li>github</li>
+							</ul>
+						</div>
+					</ul>
+				</div>
+
+				<div class="work-card">
+					<ul class="list-unstyled">
+						<li>Company - Zurili </li>
+						<li>Position - Web Developer</li>
+						<li>Jun 2015 - Sep 2015</li>
+						<div class="row">
+							<ul class="list-inline used-tech">
+								<li>html5</li>
+								<li>css3(less)</li>
+								<li>bootstrap</li>
+								<li>jQuery</li>
+								<li>Angular.js</li>
+								<li>node.js</li>
+								<li>express.js</li>
+								<li>mongodb</li>
+								<li>bower</li>
+								<li>gulp</li>
+								<li>github</li>
+							</ul>
+						</div>
+					</ul>
+				</div>
+
+				<div class="work-card">
+					<ul class="list-unstyled">
+						<li>Company - Aurazenix </li>
+						<li>Position - Web&Mobile Developer</li>
+						<li>Dec 2013  – Jan 2015</li>
+						<div class="row">
+							<ul class="list-inline used-tech">
+								<li>html</li>
+								<li>css</li>
+								<li>javascript</li>
+								<li>jQuery</li>
+								<li>jQuery-mobile</li>
+								<li>php</li>
+							</ul>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="row section" id="skills">
+			<div class="col-md-12">
+				<h1 class="section-title">Skills</h1>
+
+				<ul class="list-unstyled skills-info">
+					<li>
+						Frontend: Responsive design (twitter bootstrap, Zurb Foundation), html5(Jade), css3, LESS, SaSS, Stylus, Javascript, jQuery, Ajax, Canvas(create.js, fabric.js)
+					</li>
+					<li>
+						SPA: Angular.js 
+					</li>
+					<li>
+						Backend: Node.js, express.js
+					</li>
+					<li>
+						Database: MongoDB, Redis, MySQL
+					</li>
+					<li>
+						Javascript libraries: D3.js, socket.io, lodash, underscore, moment, bluebird, mongoose, passport, mocha, chai, sinon, supertest, jasmine
+					</li>
+					<li>
+						Development Tools: Git / Github , Gulp, Bower, JSHint
+					</li>
+					<li>
+						Operating system: Linux(Ubuntu), Windows(7, 8)
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
+
+	<footer>
+		<div class="container footer" id="contact">`
+			<a href="mailto:kakhidze2012@gmail.com" target="_blank">
+				<i class="fa fa-envelope-o"></i>
+			</a>
+
+
+			<a href="https://twitter.com/lasha_kakhidze" target="_blank">
+				<i class="fa fa-twitter"></i>
+			</a>
+
+			<a href="https://github.com/kaxi1993" target="_blank">
+				<i class="fa fa-github-alt"></i>
+			</a>
+
+			<a href="http://stackoverflow.com/users/3816072/kaxi1993" target="_blank">
+				<i class="fa fa-stack-overflow"></i>
+			</a>
+
+			<a href="https://www.linkedin.com/profile/view?id=AAMAABWEfp4BdgbSEhuWyx8exgqgMLO9Dg94YSQ&trk=hp-identity-photo" target="_blank">
+				<i class="fa fa-linkedin"></i>
+			</a>
+		</div>
+	</footer>
+	
+	<!-- google analytics script -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-75497509-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="js/loader.js"></script>
+	
 </body>
 </html>
