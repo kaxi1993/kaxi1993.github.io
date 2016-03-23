@@ -1,7 +1,6 @@
 $(window).load(function() {
-	console.log('loading...');
-	console.log('loaded');
 	$('.loader').fadeOut();
+	$('body').css('overflow-y', 'scroll');
 
 	$('.navbar-right a').on('click', function(e) {
 		e.preventDefault();
