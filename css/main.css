@@ -92,7 +92,7 @@ body {
 .project {
 	cursor: pointer;
 	position: relative;
-	height: 200px;
+	height: 35vh;
 	margin-bottom: 20px;
 }
 
