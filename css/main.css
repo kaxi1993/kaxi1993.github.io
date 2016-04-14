@@ -54,20 +54,17 @@ body {
 	background-color: #FFFFFF !important;
 }
 
-.content {
-	padding-top: 100px;
-}
-
 .section-title {
+	margin-top: 0px;
+	margin-bottom: 70px;
 	text-align: center;
 	text-transform: uppercase;
-	margin-bottom: 50px;
-	margin-top: 0px;
 }
 
 .section {
-	margin-bottom: 70px;
-	padding: 50px;
+	padding-top: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
 	text-align: center;
 }
 
@@ -85,7 +82,6 @@ body {
 
 .my-work {
 	padding-top: 50px;
-	margin-bottom: 70px;
 }
 
 .project {
@@ -154,6 +150,10 @@ body {
 	color: #337AB7;
 }
 
+.skills {
+	padding-bottom: 50px;
+}
+
 .skills-info {
 	font-size: 17px;
 	text-align: left;
@@ -163,7 +163,8 @@ body {
 .skills-info li {
 	border-left: 3px solid #00EDFF;
 	margin-bottom: 10px;
-	padding-left: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .footer {
