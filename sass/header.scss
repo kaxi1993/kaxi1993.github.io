@@ -1,0 +1,83 @@
+@import "compass";
+
+$welcomeTitleColor: #FFFFFF;
+$welcomeTextColor: #A0A0A1;
+
+$socialLinkColor: #A7AEB2;
+$google: #D62121;
+$twitter: rgb(0, 171, 238);
+$github: #000000;
+$stackoverflow: #F48024;
+$linkedin: #1B86BC;
+
+.background-cover {
+	position: absolute;
+	background-color: rgba(45, 47, 51, 0.7);
+
+	.welcome {
+		width: 80%;
+		margin: 200px auto auto;
+
+		h1 {
+			margin-bottom: 50px;
+			text-align: center;
+			color: $welcomeTitleColor;
+			font: {
+				size: 65px;
+				family: 'Comic Sans MS';
+			}
+		}
+
+		p {
+			text-align: center;
+			color: $welcomeTextColor;
+			font: {
+				size: 18px;
+				family: 'Open Sans', Helvetica, Arial, sans-serif;
+				weight: 100;
+			}
+		}
+	}
+
+	.social {
+		max-width: 450px;
+		min-height: 50px;
+		margin: 130px auto auto;
+		a {
+			@include align-items(center);
+			@include display-flex();
+			@include justify-content(center);
+			font-size: 24px;
+			color: $socialLinkColor;
+			border: 2px solid rgba(0, 0, 0, 0);
+			width: 50px;
+			height: 50px;
+			border-width: 2px;
+			border-radius: 50%;
+			text-decoration: none;
+			margin-left: 20px;
+			margin-right: 20px;
+			float: left;
+			&:hover {
+				@include transition;
+				color: #FFFFFF;
+				border-style: solid;
+			}
+		}
+		a.mail:hover {
+			border-color: $google;
+		}
+		a.twitter:hover {
+			border-color: $twitter;
+		}
+		a.github:hover {
+			border-color: $github;
+		}
+		a.stackoverflow:hover {
+			border-color: $stackoverflow;
+		}
+		a.linkedin:hover {
+			border-color: $linkedin;
+		}
+	}
+}

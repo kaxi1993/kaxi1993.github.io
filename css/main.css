@@ -1,183 +1,31 @@
+/* line 4, ../sass/main.scss */
 body {
-	background-color: #EBECED;
-	overflow-y: hidden;
+  overflow-y: hidden;
 }
 
-.loader {
-	position: fixed;
-	background-color: #11464A;
-	z-index: 1000;
-	width: 100%;
-	height: 100%;
-	text-align: center;
+/* line 8, ../sass/main.scss */
+.background-image, .background-cover {
+  width: 100%;
+  height: 100vh;
 }
 
-.loader img {
-	position: absolute;
-	width: 200px;
-	height: auto;
-	top: calc(50% - 100px);
-	left: calc(50% - 100px);
-}
-
+/* line 13, ../sass/main.scss */
 .background-image {
-	width: 100%;
-	height: 100vh;
-	background: url('../images/workspace.jpg') no-repeat;
-	background-size: cover;
+  background: url("../images/workspace.jpg") no-repeat;
+  background-size: cover;
 }
 
-.navbar-default {
-	padding-top: 25px;
-	padding-bottom: 25px;
-	background-color: rgba(255, 255, 255, 0) !important;
-	border: none !important;
+/* line 19, ../sass/main.scss */
+.onepage-pagination a.active:before {
+  width: 14px !important;
+  height: 14px !important;
+  left: 5px !important;
+  background: none !important;
 }
-
-.navbar-right a {
-	color: #C5C5C5 !important;
-	font-size: 17px;
-	text-transform: uppercase;
-}
-
-.navbar-right a:hover {
-	color: #00EDFF !important;
-}
-
-.contact-nav {
-	position: relative;
-	top: -2px;
-	border: 1px solid;
-}
-
-.contact-nav:hover {
-	background-color: #FFFFFF !important;
-}
-
-.section-title {
-	margin-top: 0px;
-	margin-bottom: 70px;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.section {
-	padding-top: 70px;
-	padding-left: 30px;
-	padding-right: 30px;
-	text-align: center;
-}
-
-.me {
-	width: 120px;
-	height: 150px;
-	border-radius: 50%;
-}
-
-.info {
-	padding: 30px;
-	font-size: 18px;
-	letter-spacing: 1px;
-}
-
-.my-work {
-	padding-top: 50px;
-}
-
-.project {
-	cursor: pointer;
-	position: relative;
-	height: 35vh;
-	margin-bottom: 20px;
-}
-
-.project img {
-	width: 100%;
-	height: 100%;
-}
-
-.hover-cover {
-	position: absolute;
-	top: 0px;
-	left: 15px;
-	width: calc(100% - 30px);
-	height: 100%;
-	text-decoration: none !important;
-	opacity: 0;
-	color: #000000;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	-o-transition:.3s;
-	-ms-transition:.3s;
-	-moz-transition:.3s;
-	-webkit-transition:.3s;
-	transition:.3s;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.hover-cover:hover { 
-	opacity: 1;
-	color: #000000;
-	background-color: #FFFFFF;
-}
-
-.hover-cover p {
-	font-size: 20px;
-}
-
-.hover-cover h3 {
-	text-align: center;
-}
-
-.work-card {
-	border-left: 3px solid #00EDFF;	
-	font-size: 18px;
-	margin-bottom: 20px;
-}
-
-.work-card .list-unstyled {
-	padding-left: 30px;
-}
-
-.used-tech li {
-	margin-top: 10px;
-	border-radius: 3px;
-	border: 1px solid #337AB7;
-	padding: 7px;
-	color: #337AB7;
-}
-
-.skills {
-	padding-bottom: 50px;
-}
-
-.skills-info {
-	font-size: 17px;
-	text-align: left;
-	text-align: justify-all;
-}
-
-.skills-info li {
-	border-left: 3px solid #00EDFF;
-	margin-bottom: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-.footer {
-	text-align: center;
-	border-top: 2px solid #C5C5C5;
-	margin-top: 20px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.footer a {
-	border-radius: 50%;
-	padding: 10px;
-	font-size: 28px;
-	text-decoration: none;
+/* line 26, ../sass/main.scss */
+.onepage-pagination a:before {
+  width: 4px !important;
+  height: 4px !important;
+  border: 1px solid #A7AEB2 !important;
+  background: #A7AEB2 !important;
 }
