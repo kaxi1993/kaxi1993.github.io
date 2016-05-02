@@ -16,10 +16,10 @@ $linkedin: #1B86BC;
 
 	.welcome {
 		width: 80%;
-		margin: 200px auto auto;
+		margin: 30vh auto auto;
 
 		h1 {
-			margin-bottom: 50px;
+			margin-bottom: 10vh;
 			text-align: center;
 			color: $welcomeTitleColor;
 			font: {
@@ -42,7 +42,7 @@ $linkedin: #1B86BC;
 	.social {
 		max-width: 450px;
 		min-height: 50px;
-		margin: 130px auto auto;
+		margin: 10vh auto auto;
 		a {
 			@include align-items(center);
 			@include display-flex();

@@ -6,11 +6,11 @@
 /* line 17, ../sass/header.scss */
 .background-cover .welcome {
   width: 80%;
-  margin: 200px auto auto;
+  margin: 30vh auto auto;
 }
 /* line 21, ../sass/header.scss */
 .background-cover .welcome h1 {
-  margin-bottom: 50px;
+  margin-bottom: 10vh;
   text-align: center;
   color: #FFFFFF;
   font-size: 65px;
@@ -28,7 +28,7 @@
 .background-cover .social {
   max-width: 450px;
   min-height: 50px;
-  margin: 130px auto auto;
+  margin: 10vh auto auto;
 }
 /* line 46, ../sass/header.scss */
 .background-cover .social a {
