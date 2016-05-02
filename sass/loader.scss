@@ -1,56 +1,64 @@
-html, body {
-    background-color: #404456;
+$loaderColor: #11464A;
+
+.loader-container {
+    position: fixed;
+    background-color: #11464A;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    .spin {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -2.7em;
+        margin-left: -2.7em;
+        width: 5.4em;
+        height: 5.4em;
+        background-color: $loaderColor;
+    }
+
+    .hill {
+        position: absolute;
+        width: 7.1em;
+        height: 7.1em;
+        top: 1.7em;
+        left: 1.7em;
+        background-color: transparent;
+        border-left: .25em solid whitesmoke;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .hill:after {
+        content: '';
+        position: absolute;
+        width: 7.1em;
+        height: 7.1em;
+        left: 0;
+        background-color: $loaderColor !important;
+    }
+
+    .box {
+        position: absolute;
+        left: 0;
+        bottom: -.1em;
+        width: 1em;
+        height: 1em;
+        background-color: transparent;
+        border: .25em solid whitesmoke;
+        border-radius: 15%;
+        -webkit-transform: translate(0, -1em) rotate(-45deg);
+        -moz-transform: translate(0, -1em) rotate(-45deg);
+        -ms-transform: translate(0, -1em) rotate(-45deg);
+        transform: translate(0, -1em) rotate(-45deg);
+        animation: push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;
+    }
 }
 
-#loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -2.7em;
-    margin-left: -2.7em;
-    width: 5.4em;
-    height: 5.4em;
-    background-color: #404456;
-}
-
-#hill {
-    position: absolute;
-    width: 7.1em;
-    height: 7.1em;
-    top: 1.7em;
-    left: 1.7em;
-    background-color: transparent;
-    border-left: .25em solid whitesmoke;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-#hill:after {
-    content: '';
-    position: absolute;
-    width: 7.1em;
-    height: 7.1em;
-    left: 0;
-    background-color: #404456;
-}
-
-#box {
-    position: absolute;
-    left: 0;
-    bottom: -.1em;
-    width: 1em;
-    height: 1em;
-    background-color: transparent;
-    border: .25em solid whitesmoke;
-    border-radius: 15%;
-    -webkit-transform: translate(0, -1em) rotate(-45deg);
-    -moz-transform: translate(0, -1em) rotate(-45deg);
-    -ms-transform: translate(0, -1em) rotate(-45deg);
-    transform: translate(0, -1em) rotate(-45deg);
-    animation: push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;
-}
 
 @-webkit-keyframes push {
     0% {

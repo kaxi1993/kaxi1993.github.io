@@ -1,10 +1,14 @@
-/* line 1, ../sass/loader.scss */
-html, body {
-  background-color: #404456;
+/* line 3, ../sass/loader.scss */
+.loader-container {
+  position: fixed;
+  background-color: #11464A;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
-
-/* line 5, ../sass/loader.scss */
-#loader {
+/* line 11, ../sass/loader.scss */
+.loader-container .spin {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12,11 +16,10 @@ html, body {
   margin-left: -2.7em;
   width: 5.4em;
   height: 5.4em;
-  background-color: #404456;
+  background-color: #11464A;
 }
-
-/* line 16, ../sass/loader.scss */
-#hill {
+/* line 22, ../sass/loader.scss */
+.loader-container .hill {
   position: absolute;
   width: 7.1em;
   height: 7.1em;
@@ -29,19 +32,17 @@ html, body {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
-/* line 30, ../sass/loader.scss */
-#hill:after {
+/* line 36, ../sass/loader.scss */
+.loader-container .hill:after {
   content: '';
   position: absolute;
   width: 7.1em;
   height: 7.1em;
   left: 0;
-  background-color: #404456;
+  background-color: #11464A !important;
 }
-
-/* line 39, ../sass/loader.scss */
-#box {
+/* line 45, ../sass/loader.scss */
+.loader-container .box {
   position: absolute;
   left: 0;
   bottom: -.1em;
