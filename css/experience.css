@@ -7,3 +7,19 @@
   font-size: 40px;
   font-weight: 100;
 }
+/* line 8, ../sass/experience.scss */
+.experience .work-card {
+  margin-top: 20px;
+  color: #39363D;
+  line-height: 30px;
+  text-align: justify;
+  font-size: 17px;
+  font-family: Raleway, sans-serif;
+}
+
+@media all and (max-width: 768px) {
+  /* line 14, ../sass/experience.scss */
+  .work-card {
+    font-size: 10px !important;
+  }
+}

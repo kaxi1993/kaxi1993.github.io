@@ -24,13 +24,13 @@
   color: #39363D;
   line-height: 30px;
   text-align: justify;
-  font-size: 15px;
+  font-size: 17px;
   font-family: Raleway, sans-serif;
 }
 
 @media all and (max-width: 768px) {
-  /* line 35, ../sass/about.scss */
+  /* line 28, ../sass/about.scss */
   .info {
-    font-size: 11px !important;
+    font-size: 10px !important;
   }
 }

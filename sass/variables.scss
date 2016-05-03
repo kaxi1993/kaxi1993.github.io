@@ -8,3 +8,14 @@ $color: #d4d4d4;
 	font-size: 40px;
 	font-weight: 100;
 }
+
+@mixin info($color: #39363D) {
+	margin-top: 20px;
+	color: $color;
+	line-height: 30px;
+	text-align: justify;
+	font: {
+		size: 17px;
+		family: Raleway, sans-serif;
+	}
+}

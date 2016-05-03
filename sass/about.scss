@@ -20,19 +20,12 @@
 	}
 
 	.info {
-		margin-top: 20px;
-		color: #39363D;
-		line-height: 30px;
-		text-align: justify;
-		font: {
-			size: 15px;
-			family: Raleway, sans-serif;
-		}
+		@include info;
 	}
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 480px) {
 	.info {
-		font-size: 11px !important;
+		font-size: 10px !important;
 	}
 }
