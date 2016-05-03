@@ -1,6 +1,7 @@
 @import "compass";
 
 $arrowColor: #838587;
+$bodyColor: #30333A;
 
 .my-work {
 	.glide__arrows {
@@ -27,7 +28,7 @@ $arrowColor: #838587;
 		position: relative;
 		margin: 0px;
 		clear: none;
-		background-color: #30333A;
+		background-color: $bodyColor;
 		height: 100vh;
 
 		@include align-items(center);

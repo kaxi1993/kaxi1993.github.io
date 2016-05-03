@@ -1,0 +1,33 @@
+/* line 7, ../sass/skills.scss */
+.skills {
+  height: 100vh;
+  color: #d4d4d4;
+  color: #FFFFFF;
+  background-color: #30333A;
+}
+/* line 13, ../sass/skills.scss */
+.skills .title {
+  padding-top: 25px;
+  text-align: center;
+  color: #d4d4d4;
+  font-family: Raleway, sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  font-family: Raleway, sans-serif;
+}
+/* line 18, ../sass/skills.scss */
+.skills .skills-info {
+  color: #d4d4d4;
+  margin-top: 30px;
+  line-height: 30px;
+  text-align: justify;
+  font-size: 17px;
+  font-family: Raleway, sans-serif;
+}
+
+@media all and (max-width: 768px) {
+  /* line 31, ../sass/skills.scss */
+  .skills-info {
+    font-size: 11px !important;
+  }
+}

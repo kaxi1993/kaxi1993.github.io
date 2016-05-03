@@ -1,23 +1,24 @@
-/* line 5, ../sass/about.scss */
+/* line 4, ../sass/about.scss */
 .about-me {
   text-align: center;
 }
-/* line 8, ../sass/about.scss */
+/* line 7, ../sass/about.scss */
 .about-me .title {
+  padding-top: 25px;
+  text-align: center;
   color: #d4d4d4;
   font-family: Raleway, sans-serif;
-  font-weight: 100;
   font-size: 40px;
-  padding-top: 25px;
+  font-weight: 100;
 }
-/* line 16, ../sass/about.scss */
+/* line 11, ../sass/about.scss */
 .about-me img.me {
   margin-top: 20px;
   width: 90px;
   height: 110px;
   border: 1px solid #d4d4d4;
 }
-/* line 27, ../sass/about.scss */
+/* line 22, ../sass/about.scss */
 .about-me .info {
   margin-top: 20px;
   color: #39363D;
@@ -28,8 +29,8 @@
 }
 
 @media all and (max-width: 768px) {
-  /* line 40, ../sass/about.scss */
+  /* line 35, ../sass/about.scss */
   .info {
-    font-size: 13px !important;
+    font-size: 11px !important;
   }
 }

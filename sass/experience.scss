@@ -1,0 +1,7 @@
+@import "./variables";
+
+.experience {
+	.title {
+		@include title($color);
+	}
+}

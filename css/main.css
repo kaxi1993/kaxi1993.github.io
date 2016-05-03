@@ -35,3 +35,8 @@ body {
   border: 1px solid #A7AEB2 !important;
   background: #A7AEB2 !important;
 }
+
+/* line 38, ../sass/main.scss */
+section {
+  overflow: hidden;
+}
