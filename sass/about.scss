@@ -1,0 +1,43 @@
+@import "compass";
+
+$borderColor: #d4d4d4;
+
+.about-me {
+	text-align: center;
+
+	.title {
+		color: $borderColor;
+		font-family: Raleway, sans-serif;
+		font-weight: 100;
+		font-size: 40px;
+		padding-top: 25px;
+	}
+
+	img.me {
+		margin-top: 20px;
+		width: 90px;
+		height: 110px;
+		border: 1px solid $borderColor;
+
+		&:hover {
+			// background-color: #000000;
+		}
+	}
+
+	.info {
+		margin-top: 20px;
+		color: #39363D;
+		line-height: 30px;
+		text-align: justify;
+		font: {
+			size: 15px;
+			family: Raleway, sans-serif;
+		}
+	}
+}
+
+@media all and (max-width: 768px) {
+	.info {
+		font-size: 13px !important;
+	}
+}
