@@ -1,0 +1,94 @@
+@import "compass";
+
+$arrowColor: #838587;
+
+.my-work {
+	.glide__arrows {
+		button {
+			border-radius: 50%;
+			font-size: 50px;
+			width: 75px;
+			border: none;
+			color: $arrowColor;
+
+			&:hover {
+				@include transition;
+				color: #FFFFFF;
+				background-color: rgba(0, 0, 0, 0.5);
+			}
+		}
+	}
+
+	.glide__wrapper, .glide__track {
+		padding: 0px;
+	}
+	
+	.glide__slide {
+		position: relative;
+		margin: 0px;
+		clear: none;
+		background-color: #30333A;
+		height: 100vh;
+
+		@include align-items(center);
+		@include display-flex();
+		@include justify-content(center);	
+		
+		.project-description {
+			background-color: rgba(255,255,255,0.1);
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			height: 40px;
+			color: #FFFFFF;
+			width: 60%;
+			@media only screen and (max-device-width: 480px) {
+				width: 90%;
+			}
+			margin: auto;
+			
+			.colors {
+				div {
+					position: relative;
+					top: 15px;
+					left: 14px;
+					margin-right: 5px;
+					float: left;
+					width: 10px;
+					height: 10px;
+					border-radius: 50%;
+				}
+
+				.red {
+					background-color: #f67070;
+				}
+
+				.yellow {
+					background-color: #ede178;
+				}
+
+				.green {
+					background-color: #b7e67d;
+				}
+			}
+
+			p {
+				font-family: Anton, sans-serif;
+				text-align: center;
+				padding: 9px;
+				margin-bottom: 0px;
+			}
+		}
+
+		.project-image {
+			width: 60%;
+			margin: auto;
+		}
+	}
+}
+
+@media all and (max-width: 768px) {
+	.project-description, .project-image {
+		width: 90% !important;
+		margin: auto;
+	}
+}

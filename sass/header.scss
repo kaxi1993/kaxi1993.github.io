@@ -12,14 +12,13 @@ $linkedin: #1B86BC;
 
 .background-cover {
 	position: absolute;
-	background-color: rgba(45, 47, 51, 0.7);
+	background-color: rgba(45, 47, 51, 0.85);
+	@include align-items(center);
+	@include display-flex();
+	@include justify-content(center);
 
 	.welcome {
-		width: 80%;
-		margin: 30vh auto auto;
-
 		h1 {
-			margin-bottom: 30px;
 			text-align: center;
 			color: $welcomeTitleColor;
 			font: {
@@ -29,6 +28,7 @@ $linkedin: #1B86BC;
 		}
 
 		p {
+			padding-top: 45px;
 			text-align: center;
 			color: $welcomeTextColor;
 			font: {
@@ -40,14 +40,7 @@ $linkedin: #1B86BC;
 	}
 
 	.social {
-		position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 30px;
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 450px;
-		min-height: 50px;
+		padding-top: 40px;
 		text-align: center;
 		
 		li {

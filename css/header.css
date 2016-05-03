@@ -1,23 +1,24 @@
 /* line 13, ../sass/header.scss */
 .background-cover {
   position: absolute;
-  background-color: rgba(45, 47, 51, 0.7);
-}
-/* line 17, ../sass/header.scss */
-.background-cover .welcome {
-  width: 80%;
-  margin: 30vh auto auto;
+  background-color: rgba(45, 47, 51, 0.85);
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 /* line 21, ../sass/header.scss */
 .background-cover .welcome h1 {
-  margin-bottom: 30px;
   text-align: center;
   color: #FFFFFF;
   font-size: 60px;
   font-family: 'Comic Sans MS';
 }
-/* line 31, ../sass/header.scss */
+/* line 30, ../sass/header.scss */
 .background-cover .welcome p {
+  padding-top: 45px;
   text-align: center;
   color: #A0A0A1;
   font-size: 18px;
@@ -26,21 +27,14 @@
 }
 /* line 42, ../sass/header.scss */
 .background-cover .social {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 450px;
-  min-height: 50px;
+  padding-top: 40px;
   text-align: center;
 }
-/* line 53, ../sass/header.scss */
+/* line 46, ../sass/header.scss */
 .background-cover .social li {
   display: inline !important;
 }
-/* line 57, ../sass/header.scss */
+/* line 50, ../sass/header.scss */
 .background-cover .social a {
   -webkit-align-items: center;
   align-items: center;
@@ -60,7 +54,7 @@
   margin-right: 20px;
   display: inline-flex;
 }
-/* line 72, ../sass/header.scss */
+/* line 65, ../sass/header.scss */
 .background-cover .social a:hover {
   -moz-transition: all 1s;
   -o-transition: all 1s;
@@ -69,23 +63,23 @@
   color: #FFFFFF;
   border-style: solid;
 }
-/* line 78, ../sass/header.scss */
+/* line 71, ../sass/header.scss */
 .background-cover .social a.mail:hover {
   border-color: #D62121;
 }
-/* line 81, ../sass/header.scss */
+/* line 74, ../sass/header.scss */
 .background-cover .social a.twitter:hover {
   border-color: #00abee;
 }
-/* line 84, ../sass/header.scss */
+/* line 77, ../sass/header.scss */
 .background-cover .social a.github:hover {
   border-color: #000000;
 }
-/* line 87, ../sass/header.scss */
+/* line 80, ../sass/header.scss */
 .background-cover .social a.stackoverflow:hover {
   border-color: #F48024;
 }
-/* line 90, ../sass/header.scss */
+/* line 83, ../sass/header.scss */
 .background-cover .social a.linkedin:hover {
   border-color: #1B86BC;
 }
