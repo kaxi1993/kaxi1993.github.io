@@ -23,7 +23,7 @@ $linkedin: #1B86BC;
 			text-align: center;
 			color: $welcomeTitleColor;
 			font: {
-				size: 65px;
+				size: 60px;
 				family: 'Comic Sans MS';
 			}
 		}
@@ -43,11 +43,17 @@ $linkedin: #1B86BC;
 		position: absolute;
 		left: 0;
 		right: 0;
-		bottom: 100px;
+		bottom: 30px;
 		margin-left: auto;
 		margin-right: auto;
 		max-width: 450px;
 		min-height: 50px;
+		text-align: center;
+		
+		li {
+			display: inline !important;
+		}
+
 		a {
 			@include align-items(center);
 			@include display-flex();
@@ -62,7 +68,7 @@ $linkedin: #1B86BC;
 			text-decoration: none;
 			margin-left: 20px;
 			margin-right: 20px;
-			float: left;
+			display: inline-flex;
 			&:hover {
 				@include transition;
 				color: #FFFFFF;
