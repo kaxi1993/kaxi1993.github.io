@@ -28,7 +28,7 @@
   font-family: Raleway, sans-serif;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 480px) {
   /* line 28, ../sass/about.scss */
   .info {
     font-size: 10px !important;

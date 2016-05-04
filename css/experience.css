@@ -17,7 +17,7 @@
   font-family: Raleway, sans-serif;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 480px) {
   /* line 14, ../sass/experience.scss */
   .work-card {
     font-size: 10px !important;

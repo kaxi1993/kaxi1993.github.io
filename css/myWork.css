@@ -85,7 +85,7 @@
   margin: auto;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 480px) {
   /* line 91, ../sass/myWork.scss */
   .project-description, .project-image {
     width: 90% !important;

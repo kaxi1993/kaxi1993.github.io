@@ -62,10 +62,9 @@ $linkedin: #1B86BC;
 			margin-left: 20px;
 			margin-right: 20px;
 			display: inline-flex;
+
 			&:hover {
 				@include transition;
-				color: #FFFFFF;
-				border-style: solid;
 			}
 		}
 		a.mail:hover {

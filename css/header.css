@@ -54,32 +54,30 @@
   margin-right: 20px;
   display: inline-flex;
 }
-/* line 65, ../sass/header.scss */
+/* line 66, ../sass/header.scss */
 .background-cover .social a:hover {
   -moz-transition: all 1s;
   -o-transition: all 1s;
   -webkit-transition: all 1s;
   transition: all 1s;
-  color: #FFFFFF;
-  border-style: solid;
 }
-/* line 71, ../sass/header.scss */
+/* line 70, ../sass/header.scss */
 .background-cover .social a.mail:hover {
   border-color: #D62121;
 }
-/* line 74, ../sass/header.scss */
+/* line 73, ../sass/header.scss */
 .background-cover .social a.twitter:hover {
   border-color: #00abee;
 }
-/* line 77, ../sass/header.scss */
+/* line 76, ../sass/header.scss */
 .background-cover .social a.github:hover {
   border-color: #000000;
 }
-/* line 80, ../sass/header.scss */
+/* line 79, ../sass/header.scss */
 .background-cover .social a.stackoverflow:hover {
   border-color: #F48024;
 }
-/* line 83, ../sass/header.scss */
+/* line 82, ../sass/header.scss */
 .background-cover .social a.linkedin:hover {
   border-color: #1B86BC;
 }
