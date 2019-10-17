@@ -1,1 +1,1 @@
-[Personal Page](http://http://kaxi1993.github.io/)
+[Personal Page](http://kaxi1993.github.io/)
