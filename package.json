@@ -2,6 +2,7 @@
   "name": "kaxi1993.github.io",
   "version": "0.1.0",
   "private": true,
+  "main": "build/index.html",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
