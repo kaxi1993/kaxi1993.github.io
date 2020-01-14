@@ -1,6 +1,7 @@
 body {
     background-color: #f8f8f8;
 }
+
 .title {
     font-size: 17px;
     font-weight: 500;
@@ -62,4 +63,8 @@ body {
 
 .lk-content--block-body {
     padding: 30px 40px;
+}
+
+.lk-content--block-body p {
+    margin-bottom: 5px;
 }
