@@ -44,7 +44,7 @@ function addExperience(el, data) {
     row.className = 'row '
 
     var col1 = document.createElement('div')
-    col1.className = 'col'
+    col1.className = 'col-md-6'
 
     var p1 = document.createElement('p')
     p1.className = 'title'
@@ -62,7 +62,7 @@ function addExperience(el, data) {
     col1.append(p3)
 
     var col2 = document.createElement('div')
-    col2.className = 'col'
+    col2.className = 'col-md-6'
 
 
     var p3 = document.createElement('p')
