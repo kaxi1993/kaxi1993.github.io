@@ -4,13 +4,13 @@
         years: 'Jun 2017 - Nov 2019',
         location: 'Georgia',
         company: 'Pulsar AI',
-        description: 'Developed and shipped 3 successfull messenger chatbots. Created fully automated system to deploy code from bitbucket to AWS. Developed content management system for chatbots. Worked with a variety of different languages, frameworks such as JavaScript, React, Angular, Node, Python, Ruby etc.'
+        description: 'Developed and shipped 3 successful messenger chatbots. Created fully automated system to deploy code from bitbucket to AWS. Developed content management system for chatbots. Worked with a variety of different languages, frameworks such as JavaScript, React, Angular, Node, Python etc.'
     }, {
         title: 'Web Developer',
         years: 'Jul 2016 - Jun 2017',
         location: 'United States',
         company: 'Usario',
-        description: 'Developed survey creator website. I was a fullstack developer, used Node Strongloop framework on backend and Angular on frontend.'
+        description: 'Developed survey creator website. I was a fullstack developer, used Node loopback framework on backend and Angular on frontend.'
     }, {
         title: 'Web Developer',
         years: 'Feb 2017 - Jun 2017',
