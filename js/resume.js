@@ -4,7 +4,7 @@
         years: 'Jun 2017 - Nov 2019',
         location: 'Georgia',
         company: 'Pulsar AI',
-        description: 'Developed and shipped 3 successful messenger chatbots. Created fully automated system to deploy code from bitbucket to AWS. Developed content management system for chatbots. Worked with a variety of different languages, frameworks such as JavaScript, React, Angular, Node, Python etc.'
+        description: 'Developed and shipped 3 successful messenger chatbots. Automated a lot of work that they did manually before. Developed content management system for chatbots. Worked with a variety of different languages, frameworks such as JavaScript, React, Angular, Node, Python etc.'
     }, {
         title: 'Web Developer',
         years: 'Jul 2016 - Jun 2017',
