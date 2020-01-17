@@ -16,7 +16,7 @@
         years: 'Feb 2017 - Jun 2017',
         location: 'Australia',
         company: 'FirstMac',
-        description: 'I rewrote the REST API to Node, added unit tests. Used mocha for testing.'
+        description: 'I rewrote the REST API to Node, added unit tests, used mocha for testing.'
     }, {
         title: 'Web Developer',
         years: 'Jan 2015 - Jul 2016',
